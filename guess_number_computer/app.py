@@ -7,7 +7,7 @@ def guess(x):
         guess = int(input(f"Guess the number between 1 and {x}: "))
         if guess < random_number:
             print("Sorry! guess again. Number is too low")
-        if guess > random_number:
+        elif guess > random_number:
             print("Sorry! guess again. Number is too high")
     print(f"Yay! Congrats you guessed the number {random_number} correctly")
 
